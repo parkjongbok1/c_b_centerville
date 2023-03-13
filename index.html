@@ -1,451 +1,514 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>천안 백석 센트레빌</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/style.css">
-  
-  <meta property="og:image" content="../meta/thumb.jpg">
-  <link rel="shortcut icon" href="../meta/favicon.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>천안 백석 센트레빌</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sub.css" />
 
-  <script src="js/jquery-3.6.0.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/scroll_event_class.js"></script>
-  <script src="js/common.js"></script>
-  <script src="js/main.js"></script>
+    <meta property="og:image" content="../meta/thumb.jpg" />
+    <link rel="shortcut icon" href="../meta/favicon.ico" />
 
-  <script>
-    if (navigator.userAgent.match(/iPhone|iPad|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Nokia|webOS|Opera Mini|SonyEricsson|opera mobi|Windows Phone|IEMobile|POLARIS/) != null){
-       top.location.href = "../mobile/";  //모바일용 인덱스파일을 띄어라 
-    }
- </script>
-</head>
-<body>
-  <!-- wrep -->
-  <div class="wrep">
-    <!-- header -->
-    <header class="header" id="common">
-      <h1 class="logo"><a href="index.html"><img src="image/logo.png" alt="로고"></a></h1>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scroll_event_class.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
 
-      <!-- bon_menu st -->
-      <nav role="navigation">
-        <ul class="access-menu">
-          <li class="menu_btn">
-            <a href="planning.html">사업개요</a>
-            <!-- <ul class="access-submenu">
+    <script>
+      if (
+        navigator.userAgent.match(
+          /iPhone|iPad|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Nokia|webOS|Opera Mini|SonyEricsson|opera mobi|Windows Phone|IEMobile|POLARIS/
+        ) != null
+      ) {
+        top.location.href = "../mobile/"; //모바일용 인덱스파일을 띄어라
+      }
+    </script>
+  </head>
+  <body>
+    <!-- wrep -->
+    <div class="wrep">
+      <!-- header -->
+      <header class="header" id="common">
+        <h1 class="logo">
+          <a href="index.html"><img src="image/logo.png" alt="로고" /></a>
+        </h1>
+
+        <!-- bon_menu st -->
+        <nav role="navigation">
+          <ul class="access-menu">
+            <li class="menu_btn">
+              <a href="planning.html">사업개요</a>
+              <!-- <ul class="access-submenu">
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
             </ul> -->
-          </li>
+            </li>
 
-          <li class="menu_btn">
-            <a href="brand.html">브랜드소개</a>
-            <!-- <ul class="access-submenu">
+            <li class="menu_btn">
+              <a href="brand.html">브랜드소개</a>
+              <!-- <ul class="access-submenu">
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
             </ul> -->
-          </li>
+            </li>
 
-          <li class="menu_btn">
-            <a href="location.html">입지환경</a>
-            <!-- <ul class="access-submenu">
+            <li class="menu_btn">
+              <a href="location.html">입지환경</a>
+              <!-- <ul class="access-submenu">
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
             </ul> -->
-          </li>
+            </li>
 
-          <li class="menu_btn">
-            <a href="premium.html">프리미엄</a>
-            <!-- <ul class="access-submenu">
+            <li class="menu_btn">
+              <a href="premium.html">프리미엄</a>
+              <!-- <ul class="access-submenu">
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
             </ul> -->
-          </li>
+            </li>
 
-          <li class="menu_btn">
-            <a href="contact.html">오시는길</a>
-            <!-- <ul class="access-submenu">
+            <li class="menu_btn">
+              <a href="contact.html">오시는길</a>
+              <!-- <ul class="access-submenu">
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
             </ul> -->
-          </li>
+            </li>
 
-          <li class="menu_btn">
-            <a href="customer.html">관심고객등록</a>
-            <!-- <ul class="access-submenu">
+            <li class="menu_btn">
+              <a href="customer.html">관심고객등록</a>
+              <!-- <ul class="access-submenu">
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
               <li><a href=""></a></li>
             </ul> -->
-          </li>
-        </ul>
-      </nav>
-      <!-- // bon_menu en -->
+            </li>
+          </ul>
+        </nav>
+        <!-- // bon_menu en -->
 
-      <img src="image/call.png" alt="" class="call">
-    </header>
+        <img src="image/call.png" alt="" class="call" />
+      </header>
 
-    <div class="quick_menu">
-      <a href="customer.html" class="item customer">
-        <h3>관심고객등록</h3>
-        <span>customer</span>
-      </a>
-      <a href="contact.html" class="item contact">
-        <h3>오시는길</h3>
-        <span>contact</span>
-      </a>
-      <div class="item open">
-        <h2>2월 24일 open</h2>
-        <strong>[ 84A㎡ (183세대) / 84B㎡(175세대) | 총 358세대 ]</strong>
+      <div class="quick_menu">
+        <a href="customer.html" class="item customer">
+          <h3>관심고객등록</h3>
+          <span>customer</span>
+        </a>
+        <a href="contact.html" class="item contact">
+          <h3>오시는길</h3>
+          <span>contact</span>
+        </a>
+        <div class="item open">
+          <h2>open 예정</h2>
+          <strong>[ 84㎡ A (183세대) / 84㎡B(175세대) | 총 358세대 ]</strong>
+        </div>
       </div>
-    </div>
 
-    <main class="main">
-      <!-- sec01 visual -->
-      <section class="sec01 visual" id="top">
-        <div class="V_content">
-          <img src="image/visual_title01.png" alt="" class="title01">
-          <p>
-            노태공원 바로 앞 백석의 중심에서 만나는<br>
-            천안의 첫 센트레빌! 백석프리미엄을 완성하다
-          </p>
-          <span class="line"></span>
-          <img src="image/visual_title02.png" alt="" class="title02">
-        </div>
+      <main class="main">
+        <!-- sec01 visual -->
+        <section class="sec01 visual" id="top">
+          <div class="V_content">
+            <p>
+              노태공원 바로 앞 삼성SDI 및 산업단지 <br />
+              천안종합운동장 삼성대로, 두정역,<br />
+              천안IC 이마트, 롯데마트 오성/환서 초·중교, 두정고
+            </p>
 
-        <!-- <div class="quick_menu">
-          <a href="customer.html" class="item customer">
-            <h3>관심고객등록</h3>
-            <span>customer</span>
-          </a>
-          <a href="contact.html" class="item contact">
-            <h3>오시는길</h3>
-            <span>contact</span>
-          </a>
-          <div class="item open">
-            <h2>2월 24일 open</h2>
-            <strong>[ 84A㎡ (183세대) / 84B㎡(175세대) | 총 358세대 ]</strong>
+            <h2><span>도시와 공원을 함께 누리는</span>Urban-Park 프리미엄</h2>
+            <span class="line"></span>
+            <img src="image/visual_title02.png" alt="" class="title01" />
           </div>
-        </div> -->
-      </section>
+        </section>
 
-      <!-- sec02 location -->
-      <section class="sec02 location">
-        <div class="inner">
-          <div class="title">
-            <span class="ani-L">공원과 마주하고 교통, 교육, 생활을 누리는</span>
-            <h2 class="ani-L">
-              내일이 더 기대되는<br>
-              백석의 중심
+        <!-- sec02 location -->
+        <section class="sec02 location">
+          <div class="inner">
+            <div class="title">
+              <span class="ani-L"
+                >공원과 마주하고 교통, 교육, 생활을 누리는</span
+              >
+              <h2 class="ani-L">
+                내일이 더 기대되는<br />
+                백석의 중심
+              </h2>
+
+              <a href="location.html" class="link_box ani-L t-delay0_3">
+                <img src="image/link_arrow.png" alt="" class="link_arrow" />
+                <img src="image/link_rolling.png" alt="" class="link_rolling" />
+              </a>
+            </div>
+
+            <div class="lo_slider ani-R t-delay0_3">
+              <div>
+                <div class="item">
+                  <div class="lo_icon">
+                    <img
+                      src="image/lo_icon01_on.png"
+                      alt=""
+                      class="lo_icon_on"
+                    />
+                    <img
+                      src="image/lo_icon01_off.png"
+                      alt=""
+                      class="lo_icon_off"
+                    />
+                  </div>
+
+                  <nav>
+                    <h3>힐링가득<strong> 청정입지</strong></h3>
+                    <p>
+                      단지 앞 노태근린공원의 풍부한 자연과<br />
+                      백석공원, 두정공원, 천안종합운동장까지<br />
+                      가깝게 누리는 힐링입지
+                    </p>
+                  </nav>
+                  <span>01</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="item">
+                  <div class="lo_icon">
+                    <img
+                      src="image/lo_icon02_on.png"
+                      alt=""
+                      class="lo_icon_on"
+                    />
+                    <img
+                      src="image/lo_icon02_off.png"
+                      alt=""
+                      class="lo_icon_off"
+                    />
+                  </div>
+
+                  <nav>
+                    <h3>직주근접<strong> 특급교통</strong></h3>
+                    <p>
+                      삼성SDI 및 10개의 산업단지까지<br />
+                      직주근접이 가능한 두정로, 삼성대로<br />
+                      두정역, 천안IC 등의 쾌속교통망
+                    </p>
+                  </nav>
+
+                  <span>02</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="item">
+                  <div class="lo_icon">
+                    <img
+                      src="image/lo_icon03_on.png"
+                      alt=""
+                      class="lo_icon_on"
+                    />
+                    <img
+                      src="image/lo_icon03_off.png"
+                      alt=""
+                      class="lo_icon_off"
+                    />
+                  </div>
+
+                  <nav>
+                    <h3>수준높은<strong> 주거생활</strong></h3>
+                    <p>
+                      이마트, 롯데마트, 코스트코,<br />
+                      마치에비뉴 등 편리한 생활문화시설이<br />
+                      인접한 인프라의 중심
+                    </p>
+                  </nav>
+                  <span>03</span>
+                </div>
+              </div>
+
+              <div>
+                <div class="item">
+                  <div class="lo_icon">
+                    <img
+                      src="image/lo_icon04_on.png"
+                      alt=""
+                      class="lo_icon_on"
+                    />
+                    <img
+                      src="image/lo_icon04_off.png"
+                      alt=""
+                      class="lo_icon_off"
+                    />
+                  </div>
+
+                  <nav>
+                    <h3>도보이동<strong> 안심교육</strong></h3>
+                    <p>
+                      반경 500m 내 도보로 이동이 가능한<br />
+                      초·중교 및 학원가가 인접한<br />
+                      백석 안심 교육의 중심
+                    </p>
+                  </nav>
+
+                  <span>04</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rool_text ani t-delay0_3">
+            <h2>
+              centreville location centreville location centreville location
+              centreville location centreville location centreville location
             </h2>
-  
-            <a href="location.html" class="link_box ani-L t-delay0_3">
-              <img src="image/link_arrow.png" alt="" class="link_arrow">
-              <img src="image/link_rolling.png" alt="" class="link_rolling">
-            </a>
           </div>
-  
-          <div class="lo_slider ani-R t-delay0_3">
-            <div>
-              <div class="item">
-                <div class="lo_icon">
-                  <img src="image/lo_icon01_on.png" alt="" class="lo_icon_on">
-                  <img src="image/lo_icon01_off.png" alt="" class="lo_icon_off">
-                </div>
-    
-                <nav>
-                  <h3>힐링가득<strong> 청정입지</strong></h3>
-                  <p>
-                    단지 앞 노태근린공원의 풍부한 자연과<br>
-                    백석공원, 두정공원, 천안종합운동장까지<br>
-                    가깝게 누리는 힐링입지
-                  </p>
-                </nav>
-                <span>01</span>
-              </div>
+        </section>
+
+        <!-- sec03 premium -->
+        <section class="sec03 premium">
+          <div class="title ani-O">
+            <div class="ani-L t-delay0_2">
+              <h2>
+                <span>내일이 더 기대되는 백석의 중심</span><br />
+                백석이 처음 만나는 프리미엄
+              </h2>
             </div>
-  
-            <div>
-              <div class="item">
-                <div class="lo_icon">
-                  <img src="image/lo_icon02_on.png" alt="" class="lo_icon_on">
-                  <img src="image/lo_icon02_off.png" alt="" class="lo_icon_off">
-                </div>
-    
-                <nav> 
-                  <h3>직주근접<strong> 특급교통</strong></h3>
+
+            <img
+              src="image/premium_title.png"
+              alt=""
+              class="ani-L t-delay0_4"
+            />
+          </div>
+
+          <div class="inner">
+            <div class="premium_s_title ani-L t-delay0_6">
+              <nav>
+                <div class="desc p_01 active">
+                  <h3>
+                    천안이 처음 만나는<br />
+                    센트레빌 프리미엄
+                  </h3>
                   <p>
-                    삼성SDI 및 10개의 산업단지까지<br>
-                    직주근접이 가능한 두정로, 삼성대로<br>
-                    두정역, 천안IC 등의 쾌속교통망
+                    백석의 중심을 완성하는 동부건설의<br />
+                    고품격 설계로 완성되는 프리미엄 아파트
                   </p>
-                </nav>  
-    
-                <span>02</span>
+                </div>
+
+                <div class="desc p_02">
+                  <h3>
+                    축구장 25개 규모의<br />
+                    노태공원이 바로 앞
+                  </h3>
+                  <p>
+                    25만 4,014㎡의 노태근린공원 과 백석공원,<br />
+                    성성호수공원을 누리는 곳
+                  </p>
+                </div>
+
+                <div class="desc p_03">
+                  <h3>
+                    삼성SDI 및 7개의 <br />
+                    산업단지 직주근접
+                  </h3>
+                  <p>
+                    삼성대로, 두정역, 천안IC 등 천안시내 및<br />
+                    산업단지까지 출퇴근이 편리한 특급 교통
+                  </p>
+                </div>
+
+                <div class="desc p_04">
+                  <h3>
+                    센트레빌의 사람중심<br />
+                    프리미엄 설계
+                  </h3>
+                  <p>
+                    전세대 판상형 맞통풍 구조 및 4bay 혁신설계,<br />
+                    측면 발코니 확장으로 3면 개방 특화설계
+                  </p>
+                </div>
+
+                <div class="desc p_05">
+                  <h3>
+                    아이를 위한 안심할 수 있는<br />
+                    교육의 중심
+                  </h3>
+                  <p>
+                    도보거리의 오성초·중교, 환서초·중교,<br />
+                    두정고교가 인접한 교육의 중심
+                  </p>
+                </div>
+
+                <div class="desc p_06">
+                  <h3>
+                    주거지역의 중심<br />
+                    백석 프리미엄라이프의 핵심
+                  </h3>
+                  <p>
+                    이마트, 롯데마트, 코스트코, 마치에비뉴,<br />
+                    대전대학병원 등 인프라의중심
+                  </p>
+                </div>
+              </nav>
+
+              <div class="premium_counter">
+                <div class="p_arrow premium_p">
+                  <img src="image/premium_p.png" alt="" />
+                </div>
+                <div class="pagingInfo">01│06</div>
+                <div class="p_arrow premium_n">
+                  <img src="image/premium_n.png" alt="" />
+                </div>
               </div>
             </div>
 
-            <div>
-              <div class="item">
-                <div class="lo_icon">
-                  <img src="image/lo_icon01_on.png" alt="" class="lo_icon_on">
-                  <img src="image/lo_icon01_off.png" alt="" class="lo_icon_off">
-                </div>
-    
-                <nav>
-                  <h3>힐링가득<strong> 청정입지</strong></h3>
-                  <p>
-                    단지 앞 노태근린공원의 풍부한 자연과<br>
-                    백석공원, 두정공원, 천안종합운동장까지<br>
-                    가깝게 누리는 힐링입지
-                  </p>
-                </nav>
-                <span>01</span>
+            <div class="pr_slider ani-R t-delay0_6">
+              <div class="p_item p_item01">
+                <img src="image/pr_slider01.png" alt="" />
               </div>
-            </div>
-  
-            <div>
-              <div class="item">
-                <div class="lo_icon">
-                  <img src="image/lo_icon02_on.png" alt="" class="lo_icon_on">
-                  <img src="image/lo_icon02_off.png" alt="" class="lo_icon_off">
-                </div>
-    
-                <nav> 
-                  <h3>직주근접<strong> 특급교통</strong></h3>
-                  <p>
-                    삼성SDI 및 10개의 산업단지까지<br>
-                    직주근접이 가능한 두정로, 삼성대로<br>
-                    두정역, 천안IC 등의 쾌속교통망
-                  </p>
-                </nav>  
-    
-                <span>02</span>
+              <div class="p_item p_item02">
+                <img src="image/pr_slider02.png" alt="" />
+              </div>
+              <div class="p_item p_item03">
+                <img src="image/pr_slider03.png" alt="" />
+              </div>
+              <div class="p_item p_item04">
+                <img src="image/pr_slider04.png" alt="" />
+              </div>
+              <div class="p_item p_item05">
+                <img src="image/pr_slider05.png" alt="" />
+              </div>
+              <div class="p_item p_item06">
+                <img src="image/pr_slider06.png" alt="" />
               </div>
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="rool_text ani t-delay0_3">
+        <!-- sec04 banner -->
+        <section class="sec04 banner ani-O">
+          <h2 class="ani-L">언제나 중심이 되는 집</h2>
+          <p class="ani-R">
+            주거문화의 중심을 의미하는 센트레빌은 ‘대한민국에 하나밖에 없는
+            아파트를 짓는다’는<br />
+            동부건설의 디자인 철학을 그대로 담았습니다
+          </p>
+          <img src="image/bnner_title.png" alt="" class="ani-L" />
+        </section>
+
+        <!-- sec05 brand -->
+        <section class="sec05 brand">
+          <div class="inner">
+            <div class="title">
+              <img
+                src="image/brand_logo.png"
+                alt=""
+                class="brand_logo ani-L t-delay0_2"
+              />
+              <h2 class="ani-R t-delay0_4">
+                사람을 아름답게 하는 집 <span>센트레빌</span>입니다
+              </h2>
+              <p class="ani-L t-delay0_6">
+                사람을 존중하고, 사람을 이해하는 따뜻한 배려를 바탕으로
+                센트레빌은 고객에서 언제나 새로운 주거문화를 선사합니다.
+              </p>
+            </div>
+
+            <div class="brand_cont ani-O t-delay0_6">
+              <img src="image/brand_p.png" alt="" class="brand_arrow brand_p" />
+
+              <div class="brand_slider">
+                <div class="brand_box">
+                  <img src="image/brand_slider01.png" alt="" />
+                  <h3>과천 센트레빌</h3>
+                </div>
+
+                <div class="brand_box">
+                  <img src="image/brand_slider02.png" alt="" />
+                  <h3>범어 센트레빌</h3>
+                </div>
+
+                <div class="brand_box">
+                  <img src="image/brand_slider03.png" alt="" />
+                  <h3>두류 센트레빌 더시티</h3>
+                </div>
+
+                <div class="brand_box">
+                  <img src="image/brand_slider04.png" alt="" />
+                  <h3>반포 센트레빌 아스테리움</h3>
+                </div>
+              </div>
+
+              <img src="image/brand_n.png" alt="" class="brand_arrow brand_n" />
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- footer -->
+      <footer class="footer ani-O t-delay0_1" id="common">
+        <div class="inner">
+          <a href="#top" class="up_btn">
+            <img src="image/up_btn.png" alt="" />
+          </a>
+
+          <img src="image/foot_logo.png" alt="" class="foot_logo" />
+
+          <div class="items">
+            <img src="image/foot_item01.png" alt="" />
+            <img src="image/foot_item02.png" alt="" />
+          </div>
+
+          <div class="desc">
+            <p>
+              ※ 본 사이트에 사용된 CG 및 일러스트, 이미지 등은 소비자의 이해를
+              돕기 위한 것으로 실제와 다를 수 있습니다.
+            </p>
+            <p>
+              ※ 본 사이트에 표기된 개발계획(예정) 등은 각 지방자치단체 및
+              언론보도자료를 인용한 것으로 국가 기관, 관할 지자체 및 기타관계
+              기관의 사업추진 중 변경, 지연, 취소될 수 있으며, 당사와는
+              무관합니다.
+            </p>
+            <p>
+              ※ 본 사이트의 내용은 인·허가 과정상 변경될 수 있으 니 계약 시
+              주요내용을 반드시 확인하시기 바랍니다
+            </p>
+            <p>※ 본 사이트은 편집 및 인쇄 과정상 오류가 발생할 수 있습니다.</p>
+          </div>
+
           <h2>
-            centreville location  centreville location  centreville location  centreville location  centreville location  centreville location
+            Copyright(c) 2023 천안백석 센트레빌 All Right Reserved.POWERED BY
+            <a
+              href="http://dsrealad.co.kr/website/renew/"
+              target="_blank"
+              class="dasan"
+              >DASANREALAD.</a
+            >
+            <a href="../board/adm/" target="_blank" class="admin">ADMIN</a>
           </h2>
         </div>
-      </section>
-  
-      <!-- sec03 premium -->
-      <section class="sec03 premium">
-        <div class="title ani-O">
-          <div class="ani-L t-delay0_2">
-            <h2>
-              <span>내일이 더 기대되는 백석의 중심</span><br>
-              백석이 처음 만나는 프리미엄
-            </h2>
-          </div>
-
-          <img src="image/premium_title.png" alt="" class="ani-L t-delay0_4">
-        </div>
-
-        <div class="inner">
-          <div class="premium_s_title ani-L t-delay0_6">
-            <nav>
-              <div class="desc p_01 active">
-                <h3>
-                  천안이 처음 만나는<br>
-                  프리미엄 아파트
-                </h3>
-                <p>
-                  백석의 중심을 완성하는 동부건설의<br>
-                  고품격 설계로 완성되는 프리미엄 아파트
-                </p>
-              </div>
-
-              <div class="desc p_02">
-                <h3>
-                  천안이 처음 만나는<br>
-                  프리미엄 아파트
-                </h3>
-                <p>
-                  백석의 중심을 완성하는 동부건설의<br>
-                  고품격 설계로 완성되는 프리미엄 아파트
-                </p>
-              </div>
-
-              <div class="desc p_03">
-                <h3>
-                  천안이 처음 만나는<br>
-                  프리미엄 아파트
-                </h3>
-                <p>
-                  백석의 중심을 완성하는 동부건설의<br>
-                  고품격 설계로 완성되는 프리미엄 아파트
-                </p>
-              </div>
-
-              <div class="desc p_04">
-                <h3>
-                  천안이 처음 만나는<br>
-                  프리미엄 아파트
-                </h3>
-                <p>
-                  백석의 중심을 완성하는 동부건설의<br>
-                  고품격 설계로 완성되는 프리미엄 아파트
-                </p>
-              </div>
-
-              <div class="desc p_05">
-                <h3>
-                  천안이 처음 만나는<br>
-                  프리미엄 아파트
-                </h3>
-                <p>
-                  백석의 중심을 완성하는 동부건설의<br>
-                  고품격 설계로 완성되는 프리미엄 아파트
-                </p>
-              </div>
-
-              <div class="desc p_06">
-                <h3>
-                  천안이 처음 만나는<br>
-                  프리미엄 아파트
-                </h3>
-                <p>
-                  백석의 중심을 완성하는 동부건설의<br>
-                  고품격 설계로 완성되는 프리미엄 아파트
-                </p>
-              </div>
-            </nav>
-
-            <div class="premium_counter">
-              <div class="p_arrow premium_p"><img src="image/premium_p.png" alt=""></div>
-              <div class="pagingInfo">01│06</div>
-              <div class="p_arrow premium_n"><img src="image/premium_n.png" alt=""></div>
-            </div>
-          </div>
-
-          <div class="pr_slider ani-R t-delay0_6">
-            <div class="p_item p_item01">
-              <img src="image/pr_slider01.png" alt="">
-            </div>
-            <div class="p_item p_item02">
-              <img src="image/pr_slider01.png" alt="">
-            </div>
-            <div class="p_item p_item03">
-              <img src="image/pr_slider01.png" alt="">
-            </div>
-            <div class="p_item p_item04">
-              <img src="image/pr_slider01.png" alt="">
-            </div>
-            <div class="p_item p_item05">
-              <img src="image/pr_slider01.png" alt="">
-            </div>
-            <div class="p_item p_item06">
-              <img src="image/pr_slider01.png" alt="">
-            </div>
-          </div>
-        </div>
-      </section>
-  
-      <!-- sec04 banner -->
-      <section class="sec04 banner ani-O">
-        <h2 class="ani-L">언제나 중심이 되는 집</h2>
-        <p class="ani-R">
-          주거문화의 중심을 의미하는 센트레빌은 ‘대한민국에 하나밖에 없는 아파트를 짓는다’는<br>
-          동부건설의 디자인 철학을 그대로 담았습니다
-        </p>
-        <img src="image/bnner_title.png" alt="" class="ani-L">
-      </section>
-  
-      <!-- sec05  -->
-      <section class="sec05 brand">
-        <div class="inner">
-          <div class="title">
-            <img src="image/brand_logo.png" alt="" class="brand_logo ani-L t-delay0_2">
-            <h2 class="ani-R t-delay0_4">사람을 아름답게 하는 집 <span>센트레빌</span>입니다</h2>
-            <p class="ani-L t-delay0_6">사람을 존중하고, 사람을 이해하는 따뜻한 배려를 바탕으로 센트레빌은 고객에서 언제나 새로운 주거문화를 선사합니다.</p>
-          </div>
-
-          <div class="brand_cont ani-O t-delay0_6">
-            <img src="image/brand_p.png" alt="" class="brand_arrow brand_p">
-
-            <div class="brand_slider">
-              <div class="brand_box">
-                <img src="image/brand_slider01.png" alt="">
-                <h3>주안역 센트레빌</h3>
-              </div>
-  
-              <div class="brand_box">
-                <img src="image/brand_slider02.png" alt="">
-                <h3>반포 센트레빌</h3>
-              </div>
-              
-              <div class="brand_box">
-                <img src="image/brand_slider03.png" alt="">
-                <h3>마곡 센트레빌</h3>
-              </div>
-              
-              <div class="brand_box">
-                <img src="image/brand_slider04.png" alt="">
-                <h3>당진 센트레빌 르네블루</h3>
-              </div>
-            </div>
-
-            <img src="image/brand_n.png" alt="" class="brand_arrow brand_n">
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- footer -->
-    <footer class="footer ani-O t-delay0_1" id="common">
-      <div class="inner">
-        <a href="#top" class="up_btn">
-          <img src="image/up_btn.png" alt="">
-        </a>
-
-        <img src="image/foot_logo.png" alt="" class="foot_logo">
-
-        <div class="items">
-          <img src="image/foot_item01.png" alt="">
-          <img src="image/foot_item02.png" alt="">
-        </div>
-
-        <div class="desc">
-          <p>※ 본 사이트에 사용된 CG 및 일러스트, 이미지 등은 소비자의 이해를 돕기 위한 것으로 실제와 다를 수 있습니다.</p>
-          <p>※ 본 사이트에 표기된 개발계획(예정) 등은 각 지방자치단체 및 언론보도자료를 인용한 것으로 국가 기관, 관할 지자체 및 기타관계 기관의 사업추진 중 변경, 지연, 취소될 수 있으며, 당사와는 무관합니다.</p>
-          <p>※ 본 사이트의 내용은 인·허가 과정상 변경될 수 있으 니 계약 시 주요내용을 반드시 확인하시기 바랍니다</p>
-          <p>※ 본 사이트은 편집 및 인쇄 과정상 오류가 발생할 수 있습니다.</p>
-        </div>
-
-        <h2>
-          Copyright(c)  2023 천안백석 센트레빌 All Right Reserved.POWERED BY 
-          <a href="http://dsrealad.co.kr/website/renew/" target="_blank" class="dasan">DASANREALAD.</a>
-          <a href="../board/adm/" target="_blank" class="admin">ADMIN</a>
-        </h2>
-      </div>
-    </footer>
-  </div>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>

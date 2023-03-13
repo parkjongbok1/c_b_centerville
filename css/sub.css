@@ -1,21 +1,41 @@
-
-.sub{
-    width: 100%;
-    height: auto;
+.sub {
+  width: 100%;
+  height: auto;
 }
-.sub .sub_top{
-    width: 100%;
-    height: 580px;
-    background: url("../image/sub/sub_bg.png") no-repeat center center;
-    background-size: cover;
+.sub .sub_top {
+  width: 100%;
+  height: 580px;
+  background: url("../image/sub/sub_bg.png") no-repeat center center;
+  background-size: cover;
 
-    position: relative;
-    z-index: -10;
-    animation: load_bg 2s both;
-    animation-delay: 0.2s;
+  position: relative;
+  z-index: -10;
+  animation: load_bg 2s both;
+  animation-delay: 0.2s;
+}
+.sub .sub_top nav {
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.sub .sub_top h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.sub .sub_top p {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 33px;
+  color: #ffffff;
 }
 
-.sub .sub_top img{
+/* .sub .sub_top img{
   position: absolute;
   left: 50%;
   top: 26%;
@@ -23,20 +43,20 @@
   
   animation: load_bg 1.5s both;
   animation-delay: 0.5s;
-}
+} */
 
-.sub_cont{
+.sub_cont {
   width: 1300px;
   height: auto;
   margin: -160px auto 0;
   position: relative;
 
-  background: rgb(255, 255, 255);  
+  background: rgb(255, 255, 255);
 
-  animation: load_H  1.5s both;
+  animation: load_H 1.5s both;
   animation-delay: 0.5s;
 }
-.sub-menu{
+.sub-menu {
   position: absolute;
   left: 50%;
   top: 50px;
@@ -48,79 +68,79 @@
   /* justify-content: center; */
   align-items: center;
 }
-.sub-menu .home-btn{
-    width: 60px;
-    height: 100%;
-    position: relative;
+.sub-menu .home-btn {
+  width: 60px;
+  height: 100%;
+  position: relative;
 }
-.sub-menu .home-btn::before{
-    content: "";
-    width: 2px;
-    height: 26px;
-    background: #ffffff;
+.sub-menu .home-btn::before {
+  content: "";
+  width: 2px;
+  height: 26px;
+  background: #ffffff;
 
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.sub-menu .home-btn a{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sub-menu .home-btn a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sub-menu .home-btn a img{
+.sub-menu .home-btn a img {
 }
 
-.sub-menu .smenu{
-    height: 100%;
+.sub-menu .smenu {
+  height: 100%;
 }
-.sub-menu .smenu .smenu_title{
-    width: 270px;
-    height: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+.sub-menu .smenu .smenu_title {
+  width: 270px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
-.sub-menu .smenu .smenu_title::before{
-    content: "";
-    width: 2px;
-    height: 26px;
-    background: #ffffff;
+.sub-menu .smenu .smenu_title::before {
+  content: "";
+  width: 2px;
+  height: 26px;
+  background: #ffffff;
 
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.sub-menu .smenu .smenu_title h2{
-    margin-left: 40px;
-    font-size: 20px;
-    font-weight: 500;
-    color: #ffffff;
+.sub-menu .smenu .smenu_title h2 {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
 }
-.sub-menu .smenu .smenu_title img{
-    margin-right: 40px;
+.sub-menu .smenu .smenu_title img {
+  margin-right: 40px;
 }
-.sub-menu .smenu .down-btn{
-    transform: rotate(0);
-    transition: 0.3s;
+.sub-menu .smenu .down-btn {
+  transform: rotate(0);
+  transition: 0.3s;
 }
-.sub-menu .smenu .down-btn.active{
-    transform: rotate(-180deg);
+.sub-menu .smenu .down-btn.active {
+  transform: rotate(-180deg);
 }
-.sub-menu .smenu .smenu_wrap.active{
-    display: block;
+.sub-menu .smenu .smenu_wrap.active {
+  display: block;
 }
-.smenu_wrap{
+.smenu_wrap {
   width: 100%;
   display: none;
 }
-.smenu_wrap ul{
+.smenu_wrap ul {
   width: 270px;
   position: absolute;
   top: 100%;
@@ -130,10 +150,10 @@
   background: #2f3b67;
   transition: 0.3s;
 }
-.smenu_wrap ul li{
+.smenu_wrap ul li {
   width: 100%;
 }
-.smenu_wrap ul li a{
+.smenu_wrap ul li a {
   font-size: 16px;
   font-weight: 700;
   color: #b1b1b1;
@@ -141,23 +161,23 @@
   margin: 20px 0 20px 40px;
   transition: 0.3s;
 }
-.smenu_wrap ul li a:hover{
-    color: #fff;
+.smenu_wrap ul li a:hover {
+  color: #fff;
 }
-.smenu_wrap ul li a.smtab_on{
+.smenu_wrap ul li a.smtab_on {
   color: #000;
 }
-.sub_img{
+.sub_img {
   width: 1300px;
   margin: 0 auto;
 }
-.sub_img img{
+.sub_img img {
   margin-top: 160px;
 }
-.sub_img .frame_box{
+.sub_img .frame_box {
   width: 90%;
   margin: 0 auto;
 }
-.sub_img .frame_box #guest_ifr{
+.sub_img .frame_box #guest_ifr {
   margin-top: 160px;
 }
